@@ -6,7 +6,7 @@ Look into vm_test.go for examples of usage.
 ## Commands
 
 | Command | Description | Arguments |
-| ------ | ----------- | ----------- |
+| :------: | ----------- | :-----------: |
 | PUSH | Pushes the integer into the stack. | The number to be added to the stack |
 | PRINT | Takes the last inserted integer out of the stack and prints it to the console. | - |
 | RET | See PRINT but returns the integer as the result of the code execution. Halts the VM afterwards. | - |
