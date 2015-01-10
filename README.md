@@ -5,8 +5,10 @@ Look into vm_test.go for examples of usage.
 
 ## Commands
 
-	PUSH
-	PRINT
+| Command | Description |
+| :------ | -----------:|
+| PUSH |  av |
+| PRINT | a |
 	RET // return the last stack member as the result of the executed code
 	ADD
 	SUB
