@@ -7,18 +7,18 @@ Look into vm_test.go for examples of usage.
 
 | Command | Description |
 | :------ | -----------:|
-| PUSH |  av |
-| PRINT | a |
-	RET // return the last stack member as the result of the executed code
-	ADD
-	SUB
-	MUL
-	DIV
-	JMP // jump
-	JNE // jump on inequality
-	JG // jump if greater
-	JGE // jump if greater or equal
-	JL // jump if less
-	JLE // jump if less or equal
-	SLOOP // marks the start of a loop
-	LOOP // loops the code from here to the last SLOOP for X times
+| PUSH | Pushes the integer which it is followed by in the programm code into the stack |
+| PRINT | Takes the last inserted integer out of the stack and prints it to the console |
+| RET | |
+| ADD | |
+| SUB | |
+| MUL | |
+| DIV |
+| JMP |
+| JNE |
+| JG  |
+| JGE |
+| JL |
+| JLE |
+| SLOOP |
+| LOOP |
